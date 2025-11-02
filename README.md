@@ -16,7 +16,7 @@ This project demonstrates how to use **Discrete Event System (DES)** controllers
 ### DES (Discrete Event System)
 - **Plant (G)**: Describes all possible behaviors and state transitions of the system
 - **Specification (E)**: Defines constraints and specifications that the system must comply with
-- **Supervisor (S)**: A controller synthesized through supervisory control theory that ensures system behavior complies with specifications
+- **Supervisor (C)**: A controller synthesized through supervisory control theory that ensures system behavior complies with specifications
 
 ### Event Types
 - **Controllable Events ('c')**: Events that the system can choose whether to execute (e.g., Prompts)
@@ -44,7 +44,7 @@ Contains the complete formal modeling process:
   - Define events: Prompts (controllable), User/LLM Responses (uncontrollable)
   - Build state transition diagram
 - **Phase 2**: Specification definition (E) - Define constraints that must be followed
-- **Phase 3**: Supervisor synthesis (S) - Automatically generate controller
+- **Phase 3**: Supervisor synthesis (C) - Automatically generate controller
 - **Phase 4**: Runtime control - Apply controller in LLM interactions
 
 **Key Features**:
@@ -94,7 +94,7 @@ pip install pitct
    ↓
 2. Define Specification (E) - Constraint specifications
    ↓
-3. Synthesize Supervisor (S) - Automatically generate controller
+3. Synthesize Supervisor (C) - Automatically generate controller
    ↓
 4. Runtime control - Constrain LLM action space
    ↓
