@@ -1,0 +1,11 @@
+llm_controller_project/GDAT
+
+
+Control data are displayed as a list of supervisor states
+where disabling occurs, together with the events that must
+be disabled there.
+
+llm_controller_project/GDAT is CONTROLLABLE
+
+control data:
+empty.

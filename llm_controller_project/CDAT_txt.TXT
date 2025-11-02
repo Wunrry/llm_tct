@@ -1,0 +1,14 @@
+llm_controller_project/CDAT
+
+
+Control data are displayed as a list of supervisor states
+where disabling occurs, together with the events that must
+be disabled there.
+
+llm_controller_project/CDAT is CONTROLLABLE
+
+control data:
+
+
+       1:   5                                  3:   5 
+
